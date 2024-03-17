@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>ByteBooks - Virtual Library</title>
+</head>
+<body>
+    <header>
+        <div class="div-header">
+            <div class="header-logo">
+                <img src="./images/LOGOBYTEBOOKS.png" alt="">
+            </div>
+            <div class="header-items">
+                <div class="header-items-searchbar">
+                    <div class="searchbar-item">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="items-header">
+                    <div class="header-items-favlist">
+                        <i class="fa-regular fa-heart" ></i> 
+                        <a href="favorites.html"><span>Minha lista</span></a>
+                        <!--style="color: #f7f7f7;"-->
+                    </div>
+                    <div class="header-items-profile">
+                        <i class="fa-regular fa-user"></i>
+                        <span>Olá usuário</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-cover">
+        <div class="content-pagecover">
+            <div class="image-pagecover">
+                <img src="./images/notebook3.png" alt="">
+            </div>
+            <div class="text-pagecover">
+                <div class="t-content-pagecover">
+                    <div class="name-companytext">
+                        <span><strong>BYTE</strong></span>
+                        <span><strong>BOOKS</strong></span>
+                    </div>
+                    <div class="slogan-companytext">
+                        <span>Bite into Knowledge: Byte by Byte!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partners-libraries">
+        <div class="text-plibs">
+            <h1>Confira nossas editoras parceiras</h1>
+        </div>
+        <div class="plibs-list">
+            <div class="pblibs-list-elements">
+                <img src="./images/companhiadasletras.png" alt="">
+            </div>
+            <div class="pblibs-list-elements">
+                <img src="./images/editoraleya.png" alt="">
+            </div>
+            <div class="pblibs-list-elements">
+                <img src="./images/editoraarqueiro.png" alt="">
+            </div>
+            <div class="pblibs-list-elements">
+                <img src="./images/editorasaraiva.png" alt="">
+            </div>
+            <div class="pblibs-list-elements">
+                <img src="./images/editoraatica.png" alt="">
+            </div>
+            <div class="pblibs-list-elements">
+                <img src="./images/editoraintrinseca.png" alt="">
+            </div>
+            <div class="pblibs-list-elements">
+                <img src="./images/editorarocco.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="highlights-content">
+        <div class="text-weekhighlights">
+            <h1>Destaques da Semana</h1>
+        </div>
+        <div class="highlighted-books-content">
+            <div class="list-bhighlights book"data-livro="dom_casmurro">
+                <div class="image-bhighlights"><img src="./images/capadomcasmurro.jpg" alt=""></div>
+                <div class="hearticon-descbook">
+                    <div class="text-bhighlights">
+                        <h3 class="h3-booktitle">Dom Casmurro</h3>
+                        <span class="span-authorname">Autor: Machado de Assis</span>
+                    </div>
+                    <div class="details-text-h">
+                    <div class="likebook-icon"><i class="fa-solid fa-heart like-1" style="color: var(--verde);"></i></div>
+                        <span class="ver-detalhes">Ver detalhes</span>
+                    </div>
+                </div>
+            </div>
+            <div class="list-bhighlights book" data-livro="aguerra_dos_tronos">
+                <div class="image-bhighlights"><img src="./images/capaguerradostronos.jpg" alt=""></div>
+                <div class="hearticon-descbook">
+                    <div class="text-bhighlights">
+                        <h3 class="h3-booktitle">A Guerra Dos Tronos</h3>
+                        <span class="span-authorname">Autor: George R.R Martin</span>
+                    </div>
+                    <div class="details-text-h">
+                        <div class="likebook-icon"><i class="fa-solid fa-heart like-2" style="color: var(--verde);"></i></div>
+                            <span class="ver-detalhes">Ver detalhes</span>
+                    </div>
+                </div>
+            </div>
+            <div class="list-bhighlights book" data-livro="asociedade_daneve">
+                <div class="image-bhighlights"><img src="./images/capasociedadedaneve.jpg" alt=""></div>
+                <div class="hearticon-descbook">
+                    <div class="text-bhighlights">
+                        <h3 class="h3-booktitle">A Sociedade Da Neve</h3>
+                        <span class="span-authorname">Pablo Vierci</span>
+                    </div>
+                    <div class="details-text-h">
+                        <div class="likebook-icon"><i class="fa-solid fa-heart like-3" style="color: var(--verde);"></i></div>
+                            <span class="ver-detalhes">Ver detalhes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-books">
+        <div class="content-filter-books">
+            <div class="book-filtersection">
+                <div class="bookgenre-filters">
+                    <div class="ftext-filters"><h2>Genêros Literários</h2></div>
+                    <div class="inputs-checkbox">
+                        <div class="s-bookgenre g-fic"><input type="checkbox" class="g-fic"><span>Ficção</span></div>
+                        <div class="s-bookgenre g-adv"><input type="checkbox" class="g-adv"><span>Aventura</span></div>
+                        <div class="s-bookgenre g-rom"><input type="checkbox" class="g-rom"><span>Romance</span></div>
+                        <div class="s-bookgenre g-dra"><input type="checkbox" class="g-dra"><span>Drama</span></div>
+                        <div class="s-bookgenre g-sci"><input type="checkbox" class="g-sci"><span>Científico</span></div>
+                    </div>
+                </div>
+                <div class="bookprice-filters">
+                    <div class="stext-filters"><h2>Preço</h2></div>
+                    <div class="inputs-checkbox">
+                        <div class="s-bookprice"><input type="checkbox" class="p-free"><span>Gratuito</span></div>
+                        <div class="s-bookprice"><input type="checkbox" class="p-op1"><span>R$20 - R$40</span></div>
+                        <div class="s-bookprice"><input type="checkbox" class="p-op2"><span>R$40 - R$100</span></div>
+                        <div class="s-bookprice"><input type="checkbox" class="p-op3"><span>R$100 - R$150</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="contentbooks-cards">
+                <div class="cbooks-cards">
+                    <div class="eachbook-card c-adv p-op2 book" data-livro="duna">
+                        <div class="eachcardbook-image"><img class="image-bcover" src="./bookimages/aventura.duna.jpg" alt=""></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Duna</h3>
+                            <span class="span-authorname">Autor: Frank Herbert</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-sci p-op3 book" data-livro="cosmos">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/cientifico.cosmos.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Cosmos</h3>
+                            <span class="span-authorname">Autor: Carl Sagan</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-dra p-free book" data-livro="vidas_secas">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/drama.vidassecas.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Vidas Secas</h3>
+                            <span class="span-authorname">Autor: Graciliano R.</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-fic p-op1 book" data-livro="divergente">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/ficcao.divergente.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Divergente</h3>
+                            <span class="span-authorname">Autor: Veronica Roth</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-rom p-op2 book" data-livro="diario_de_uma_paixao">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/romance.diariodeumapaixao.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Diário de uma..</h3>
+                            <span class="span-authorname">Autor: Nicholas S.</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-adv p-op3 book" data-livro="osenhor_dos_aneis">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/aventura.osenhordosaneis.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">O Senhor dos A.</h3>
+                            <span class="span-authorname">Autor: J. R. R Tolkien</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-sci p-op3 book" data-livro="teoria_de_darwin">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/cientifico.darwin.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Teoria de Darwin</h3>
+                            <span class="span-authorname">Autor: C. Darwin</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-dra p-op1 book" data-livro="asvantagens_deser_invisivel">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/dramaasvantagensdeser.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">As vantagens..</h3>
+                            <span class="span-authorname">Autor: S. Ohbosky</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-fic p-op2 book" data-livro="jogos_vorazes">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/ficcao.jogosvorazes.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Jogos Vorazes</h3>
+                            <span class="span-authorname">Autor: S. Collins</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-rom p-op1 book" data-livro="jane_eyre">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/romance.janeeyre.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Jane Eyre</h3>
+                            <span class="span-authorname">Autor: Charlotte B.</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-adv p-free book" data-livro="robinson_crusoe">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/aventura.robinsoncrusoe.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Robinson Crusoé</h3>
+                            <span class="span-authorname">Autor: Daniel Defoe</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-sci p-op3 book" data-livro="sapiens">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/cientifico.sapiens.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Sapiens</h3>
+                            <span class="span-authorname">Autor: Yuval Noah</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-dra p-free book" data-livro="o_cortico">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/dramaocortico.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">O Cortiço</h3>
+                            <span class="span-authorname">Autor: Aluísio Azev.</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>  
+                    </div>
+                    <div class="eachbook-card c-fic p-op2 book" data-livro="oconto_daaia">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/ficcao.ocontodeaia.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">O Conto da Aia</h3>
+                            <span class="span-authorname">Autor: M. Atwood</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-rom p-op1 book" data-livro="orgulho_epreconceito">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/romance.orgulhoepreconceito.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Orgulho e Prec..</h3>
+                            <span class="span-authorname">Autor: Jane Austen</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-fic p-op1 book" data-livro="frankstein">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/ficcaofrankstein.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Frankstein</h3>
+                            <span class="span-authorname">Autor: Mary Shelley</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-dra p-free book" data-livro="memoriaspostumas_debrascubas">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/drama.memoriaspostumas.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Memórias Póst..</h3>
+                            <span class="span-authorname">Autor: M. de Assis</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-fic p-op1 book" data-livro="osdois_morremnofinal">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/ficcao.osdoismorremnofinal.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Os Dois Morrem..</h3>
+                            <span class="span-authorname">Autor: Adam Silvera</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-fic p-op2 book" data-livro="harry_potter">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/aventura.harrypottereapedrafilosofal.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Harry Potter...</h3>
+                            <span class="span-authorname">Autor: J.K Rowling</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="eachbook-card c-rom p-op1 book" data-livro="crepusculo">
+                        <div class="eachcardbook-image" style="background-image: url(./bookimages/romance.crepusculo.jpg);"></div>
+                        <div class="t-eachbook">
+                            <h3 class="h3-booktitle">Crepúsculo</h3>
+                            <span class="span-authorname">Autor: S. Meyer</span>
+                            <button class="ver-detalhes">Ver detalhes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="script.js"></script> 
+
+</body>
+</html>

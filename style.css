@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul: #159DFF;
+    --white: #fffafa;
+    --preto: #272727;
+    --verde: #34A789;
+    --cinza: #efefef;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+/* HEADER */
+.div-header{
+    width: 100vw;
+    height: 70px;
+    background-color: var(--verde);
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    width: 15%;
+    height: 80%;
+    /* background-color: blue; */
+}
+
+.header-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(4);
+}
+
+.header-items{
+    width: 85%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-items-searchbar{
+    width: 50%;
+    height: 70%;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.searchbar-item{
+    width: 7%;
+    height: 100%;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar-item i{
+    font-size: 18px;
+    object-fit: cover;
+}
+
+.items-header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    width: 40%;
+    height: 55%;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.header-items-favlist a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.fa-regular{
+    color: rgb(88, 22, 22);
+}
+
+/*   CAPA   */
+
+.page-cover{
+    width: 100vw;
+    height: 400px;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-pagecover{
+    width: 95%;
+    height: 95%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.image-pagecover{
+    width: 80%;
+    height: 100%;
+    background-color: var(--verde);
+}
+
+.image-pagecover img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.text-pagecover{
+    width: 40%;
+    position: relative;
+    right: 20rem;
+}
+
+.name-companytext{
+    font-size: 10rem;
+    color: var(--preto);
+}
+
+.name-companytext span:nth-child(2){
+    position: relative;
+    bottom: 5rem;
+}
+
+.slogan-companytext{
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 8rem;
+    left: 1rem;
+}
+
+
+
+/* LISTA DE PARCEIROS */
+
+.partners-libraries{
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.text-plibs{
+    width: 80%;
+    height: 20%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.plibs-list{
+    width: 100%;
+    height: 50%;
+    background-color: var(--verde);
+    display: flex;
+    gap: 1rem;
+    padding: 6rem;
+}
+
+.pblibs-list-elements{
+    /* background-color: purple; */
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.pblibs-list-elements img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*  DESTAQUES  */
+
+.highlights-content{
+    width: 100vw;
+    height: 530px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-weekhighlights{
+    width: 80%;
+    height: 10%;
+    font-size: 2rem;
+}
+
+.highlighted-books-content{
+    width: 80%;
+    height: 90%;
+    /* background-color: wheat; */
+    display: flex;
+    gap: 1rem;
+}
+
+.list-bhighlights{
+    width: 100%;
+    height: 100%;
+    background-color: var(--verde);
+    border-radius: 1rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-bhighlights{
+    width: 85%;
+    height: 75%;
+    /* background-color: #272727; */
+    border-radius: 1rem;
+    border: none;
+}
+
+.image-bhighlights img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.text-bhighlights{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+}
+
+.hearticon-descbook{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.details-text-h{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--white);
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 8px;
+}
+
+.likebook-icon{
+    border-right: 1px solid black;
+    width: 20%;
+    text-align: center;
+}
+
+/* SEÇÃO DE LIVROS COM FILTROS */
+
+.content-books{
+    width: 100vw;
+    height: 2360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-filter-books{
+    width: 95%;
+    /* background-color: blue; */
+    height: 90%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.book-filtersection{
+    width: 25%;
+    height: 30%;
+    background-color: var(--verde);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookgenre-filters, .bookprice-filters{
+    width: 85%;
+    height: 45%;
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.ftext-filters, .stext-filters{
+    font-size: 1.8rem;
+}
+
+.s-bookgenre, .s-bookprice{
+    font-size: 1.6rem;
+}
+
+.s-bookgenre, .s-bookprice{
+    display: flex;
+    gap: 0.6rem;
+}
+
+.inputs-checkbox{
+    width: 95%;
+    margin: auto;
+}
+
+.contentbooks-cards{
+    width: 70%;
+    height: 90%;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: center;
+}
+
+.cbooks-cards{
+    width: 98%;
+    height: 98%;
+    /* background-color: #3D93DB; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+}
+
+.eachbook-card{
+    /* background-color: purple; */
+    /* flex-grow: 1;    */
+    width: calc(25% - 1rem);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    height: 350px;
+    justify-content: center;
+    border: 5px solid var(--verde);
+}
+
+.eachcardbook-image{
+    width: 182px;
+    height: 250px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.t-eachbook{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.eachcardbook-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.span-authorname{
+    position: relative;
+    bottom: 8px;
+}
+
+.redHeart{
+    color: rgb(214, 50, 50);
+}
+
