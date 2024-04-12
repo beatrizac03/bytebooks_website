@@ -35,7 +35,7 @@ let btnSaveBook = document.querySelector('.btnSaveBook')
 
 let contador = 0
 btnSaveBook.addEventListener('click', function(){
-    event.preventDefault();
+   
     adcHidden(regBookModal)
     adcHidden(overlay)
     let bookName = document.querySelector('#bookName').value

@@ -21,6 +21,7 @@ $sql = "INSERT INTO books (isbn_code, book_name, book_author, book_genre, url_bo
 
 if ($conn->query($sql) === TRUE) {
     echo json_encode(array('status' => 'success'));
+
 } else {
     echo json_encode(array('status' => 'error', 'message' => $conn->error));
 }
